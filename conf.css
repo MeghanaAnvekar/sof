@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body
+{
+	background-image: url('./img/s2.jpg');
+	
+	background-size:     cover;                    
+    background-repeat:   no-repeat;
+}
+
+hr
+{
+	margin-right:450px;
+}
+
+#h1
+{
+	font-family: Verdana;
+	font-size:40px;
+	color:#00aaff;
+}
+
+#h2
+{
+	margin-left:100px;
+	font-family: monospace;
+	font-size: 20px;
+	color:#ff6666;
+}
+
+table {
+    height: 200px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    margin-top: 3%;
+   
+    padding: 20px 20px 20px 20px;
+    border-spacing: 20px ;
+    border-collapse: separate;
+
+}

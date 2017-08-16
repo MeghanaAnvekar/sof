@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	<title>
+		My Profile
+	</title>
+	<link  rel='stylesheet' type="text/css" href="style.css" />
+</head>
+	<body>
+	<h1 style="align:center">Make me a Profile...</h1>
+	<table style="align:center">
+		<form action="profile" method="post">
+		<tr><td><label><span> Name</span></label>
+		    </td>
+		    <td><input id ="fname" type="text" name='fname' required></input></td></tr>
+			
+		<tr><td><label><span>Date of Birth</span></label></td>
+			<td><input type='date' name='dob' required></td></tr>
+		<tr><td><label><span>E-mail</span></label></td>
+			<td><input type='email' name='email' required/></td></tr>
+		<tr><td><label><span>Mobile</span></label></td>
+			<td><input type="text" name="mobile" required  /></td></tr>
+		<tr><td><label><span>Country</span></label></td>
+			<td><select name='country' required>
+				<option value='India'>India</option>
+				<option value='SriLanka'>SriLanka</option>
+				<option value='Nepal'>Nepal</option>
+				<option value='Bhutan'>Bhutan</option>
+			</select></td></tr>
+		<tr><td><label><span>How are you feeling today ?</span></label></td>
+			<td><input type="text" name="review"  required></input></td></tr>
+		<tr><td></td><td><input type="submit" name="submit" value="I'm done :)"></td></tr>
+		</form>
+		</table>
+	</body>
+</html>

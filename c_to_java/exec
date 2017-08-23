@@ -1,0 +1,7 @@
+javac sum_Avg.java
+
+export LD_LIBRARY_PATH=LD_LIBRARY_PATH:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/
+
+gcc  -g -I /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/ -I /usr/lib/jvm/java-8-openjdk-amd64/include/linux 
+-I /usr/lib/jvm/java-8-openjdk-amd64/include   sum_Avg.c -ljvm
+

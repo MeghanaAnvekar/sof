@@ -1,0 +1,5 @@
+javac JNIDemo.java
+javah -classpath . JNIDemo
+gcc -o libJNIDemo.so -shared -fPIC -I /usr/lib/jvm/java-8-openjdk/include 
+-I /usr/lib/jvm/java-8-openjdk/include/linux JNIDemo.c -I /usr/lib/jvm/java-8-openjdk-amd64/include/linux
+java -classpath . -Djava.library.path=. JNIDemo
